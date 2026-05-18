@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#D4BC8E">
+    <title>Xiloo Studio: Praticar</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container" id="tela-xilofone">
+        <section class="tela">
+            <header class="header-estudio">
+                <a href="biblioteca.html" class="btn-text">⬅ Sair</a>
+                <h2 id="titulo-musica-atual" class="titulo-musica">Carregando...</h2>
+            </header>
+
+            <div class="dashboard">
+                <div class="panel learning-panel">
+                    <h3>Estúdio Interativo</h3>
+                    <div class="botoes-acao">
+                        <button id="btn-ouvir" class="btn btn-primary">🎧 Ouvir Música</button>
+                        <button id="btn-praticar" class="btn" style="background-color: #2ECC71; color: white;">▶ Praticar (Guiado)</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="partitura-container" class="partitura-container"></div>
+            
+            <p id="mensagem-status" class="mensagem">Acompanhe as luzes no seu xilofone físico!</p>
+
+            <div class="xylophone-wrapper">
+                <div class="xylophone" style="pointer-events: none;">
+                    <div class="key c" data-nota="C"><span class="label">C</span></div>
+                    <div class="key d" data-nota="D"><span class="label">D</span></div>
+                    <div class="key e" data-nota="E"><span class="label">E</span></div>
+                    <div class="key f" data-nota="F"><span class="label">F</span></div>
+                    <div class="key g" data-nota="G"><span class="label">G</span></div>
+                    <div class="key a" data-nota="A"><span class="label">A</span></div>
+                    <div class="key b" data-nota="B"><span class="label">B</span></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

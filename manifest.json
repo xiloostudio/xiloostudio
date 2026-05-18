@@ -1,0 +1,18 @@
+{
+  "name": "Xilofone Studio",
+  "short_name": "Xilofone",
+  "description": "Estúdio interativo para aprender e gravar músicas no xilofone.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#D4BC8E",
+  "theme_color": "#D4BC8E",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3083/3083311.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
