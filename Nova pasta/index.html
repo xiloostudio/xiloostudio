@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Xiló Studio: Ferramenta de Gravação JS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .link-box { display: flex; gap: 10px; margin-top: 20px; flex-direction: column; }
+        .hidden { display: none !important; }
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 3px solid #1A1A1A;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 1rem;
+            background: rgba(255,255,255,0.8);
+            resize: vertical;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <section class="tela">
+            <header>
+                <h2>Gerador de <span class="highlight">Partitura</span></h2>
+                <p>Ferramenta de desenvolvedor para extrair o array JS</p>
+            </header>
+            
+            <div class="painel-teoria" style="text-align: center; margin-bottom: 20px;">
+                <button id="btn-gravar" class="btn btn-large" style="border-color: #E74C3C; color: #E74C3C; width: 100%;">🔴 Iniciar Gravação</button>
+                
+                <div id="area-link" class="link-box hidden">
+                    <p style="font-weight: 900; color: #27AE60;">Código JavaScript Gerado:</p>
+                    <textarea id="link-gerado" rows="8" readonly placeholder="O array da música aparecerá aqui..."></textarea>
+                    <button id="btn-copiar" class="btn btn-primary">📋 Copiar Código</button>
+                </div>
+            </div>
+            
+            <div class="xylophone-wrapper">
+                <div class="xylophone" id="xilo-gravador">
+                    <div class="key c" data-nota="C"><span class="label">C<br><small>(A)</small></span></div>
+                    <div class="key d" data-nota="D"><span class="label">D<br><small>(S)</small></span></div>
+                    <div class="key e" data-nota="E"><span class="label">E<br><small>(D)</small></span></div>
+                    <div class="key f" data-nota="F"><span class="label">F<br><small>(F)</small></span></div>
+                    <div class="key g" data-nota="G"><span class="label">G<br><small>(G)</small></span></div>
+                    <div class="key a" data-nota="A"><span class="label">A<br><small>(H)</small></span></div>
+                    <div class="key b" data-nota="B"><span class="label">B<br><small>(J)</small></span></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="teste.js"></script>
+</body>
+</html>
