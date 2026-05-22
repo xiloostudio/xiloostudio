@@ -1,4 +1,4 @@
-const CACHE_NAME = 'xilofone-studio-v7'; // Atualizado para forçar os celulares a baixarem a nova versão
+const CACHE_NAME = 'xilofone-studio-v9'; // Atualizado para forçar os celulares a baixarem a nova versão
 const ASSETS = [
   './',
   './index.html',
