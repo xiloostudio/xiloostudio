@@ -20,49 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         {
-            id: 'odeAlegria', nome: "Ode à Alegria (Beethoven)", dificuldade: "Difícil",
-            partitura: [
-                // Tema Principal - Parte 1
-                { nota: 'E', dur: 400 }, { nota: 'E', dur: 400 }, { nota: 'F', dur: 400 }, { nota: 'G', dur: 400 },
-                { nota: 'G', dur: 400 }, { nota: 'F', dur: 400 }, { nota: 'E', dur: 400 }, { nota: 'D', dur: 400 },
-                { nota: 'C', dur: 400 }, { nota: 'C', dur: 400 }, { nota: 'D', dur: 400 }, { nota: 'E', dur: 400 },
-                { nota: 'E', dur: 600 }, { nota: 'D', dur: 200 }, { nota: 'D', dur: 800 },
-                
-                // Tema Principal - Parte 2
-                { nota: 'E', dur: 400 }, { nota: 'E', dur: 400 }, { nota: 'F', dur: 400 }, { nota: 'G', dur: 400 },
-                { nota: 'G', dur: 400 }, { nota: 'F', dur: 400 }, { nota: 'E', dur: 400 }, { nota: 'D', dur: 400 },
-                { nota: 'C', dur: 400 }, { nota: 'C', dur: 400 }, { nota: 'D', dur: 400 }, { nota: 'E', dur: 400 },
-                { nota: 'D', dur: 600 }, { nota: 'C', dur: 200 }, { nota: 'C', dur: 800 },
-
-                // Ponte (A transição central)
-                { nota: 'D', dur: 400 }, { nota: 'D', dur: 400 }, {nota:'E', dur: 400 }, {nota:'C', dur: 400 },
-                {nota:'D', dur: 400 }, {nota:'E', dur: 200 }, {nota:'F', dur: 200 }, {nota:'E', dur: 400 }, {nota:'C', dur: 400 },
-                { nota: 'D', dur: 400 }, { nota: 'E', dur: 200 }, { nota: 'F', dur: 200 }, { nota: 'E', dur: 400 }, { nota: 'D', dur: 400 },
-                { nota: 'C', dur: 400 }, { nota: 'D', dur: 400 }, { nota: 'G', dur: 800 },
-
-                // Conclusão (Repetição do Tema Principal)
-                { nota: 'E', dur: 400 }, { nota: 'E', dur: 400 }, { nota: 'F', dur: 400 }, { nota: 'G', dur: 400 },
-                { nota: 'G', dur: 400 }, { nota: 'F', dur: 400 }, { nota: 'E', dur: 400 }, { nota: 'D', dur: 400 },
-                { nota: 'C', dur: 400 }, { nota: 'C', dur: 400 }, { nota: 'D', dur: 400 }, { nota: 'E', dur: 400 },
-                { nota: 'D', dur: 600 }, { nota: 'C', dur: 200 }, { nota: 'C', dur: 800 }
-            ]
-        },
-        {
-            id: 'doremifa', nome: "Do-Re-mi-Fa", dificuldade: "Média",
-            partitura: [
-    {nota:'C', dur:200}, {nota:'D', dur:300}, {nota:'E', dur:300}, {nota:'F', dur:550}, {nota:'F', dur:300}, {nota:'F', dur:550}, {nota:'C', dur:250}, {nota:'D', dur:200}, {nota:'C', dur:300}, {nota:'D', dur:550}, {nota:'D', dur:300}, {nota:'D', dur:500}, {nota:'C', dur:300}, {nota:'G', dur:300}, {nota:'F', dur:300}, {nota:'E', dur:550}, {nota:'E', dur:300}, {nota:'E', dur:450}, {nota:'C', dur:300}, {nota:'D', dur:300}, {nota:'E', dur:250}, {nota:'F', dur:500}, {nota:'F', dur:300}, {nota:'F', dur:800}
-]
-        },
-        {
             id:'anunciacao', nome: "Anunciação", dificuldade: "Fácil",
             partitura: [
     {nota:'C', dur:350}, {nota:'D', dur:350}, {nota:'E', dur:350}, {nota:'F', dur:350}, {nota:'E', dur:350}, {nota:'D', dur:400}, {nota:'C', dur:350}, {nota:'A', dur:350}, {nota:'C', dur:350}, {nota:'D', dur:300}, {nota:'C', dur:400}, {nota:'D', dur:950}, {nota:'C', dur:350}, {nota:'D', dur:350}, {nota:'E', dur:350}, {nota:'F', dur:350}, {nota:'E', dur:300}, {nota:'D', dur:350}, {nota:'C', dur:350}, {nota:'A', dur:400}, {nota:'E', dur:350}, {nota:'D', dur:400}, {nota:'C', dur:350}, {nota:'C', dur:800}
-]
-        },
-        {
-            id:'brilhaestrelinha', nome: "Brilha, Brilha Estrelinha", dificuldade: "Média",
-            partitura: [
-    {nota:'C', dur:400}, {nota:'C', dur:450}, {nota:'G', dur:400}, {nota:'G', dur:400}, {nota:'A', dur:400}, {nota:'A', dur:400}, {nota:'G', dur:400}, {nota:'G', dur:400}, {nota:'F', dur:450}, {nota:'F', dur:400}, {nota:'E', dur:400}, {nota:'E', dur:400}, {nota:'D', dur:400}, {nota:'D', dur:300}, {nota:'C', dur:900}, {nota:'G', dur:400}, {nota:'G', dur:400}, {nota:'F', dur:400}, {nota:'F', dur:400}, {nota:'E', dur:400}, {nota:'E', dur:400}, {nota:'D', dur:900}, {nota:'G', dur:400}, {nota:'G', dur:400}, {nota:'F', dur:400}, {nota:'F', dur:400}, {nota:'E', dur:400}, {nota:'E', dur:400}, {nota:'D', dur:850}, {nota:'C', dur:400}, {nota:'C', dur:450}, {nota:'G', dur:400}, {nota:'G', dur:400}, {nota:'A', dur:450}, {nota:'A', dur:400}, {nota:'G', dur:400}, {nota:'G', dur:400}, {nota:'F', dur:400}, {nota:'F', dur:400}, {nota:'E', dur:400}, {nota:'E', dur:450}, {nota:'D', dur:400}, {nota:'D', dur:400}, {nota:'C', dur:800}
 ]
         },
         {
@@ -77,15 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
     {nota:'C', dur:450}, {nota:'C', dur:200}, {nota:'C', dur:650}, {nota:'C', dur:450}, {nota:'C', dur:200}, {nota:'C', dur:600}, {nota:'E', dur:500}, {nota:'E', dur:200}, {nota:'E', dur:750}, {nota:'E', dur:450}, {nota:'E', dur:200}, {nota:'E', dur:650}, {nota:'C', dur:450}, {nota:'C', dur:150}, {nota:'C', dur:600}, {nota:'C', dur:450}, {nota:'C', dur:200}, {nota:'C', dur:650}, {nota:'E', dur:550}, {nota:'E', dur:200}, {nota:'E', dur:700}, {nota:'E', dur:400}, {nota:'E', dur:200}, {nota:'E', dur:600}, {nota:'A', dur:450}, {nota:'A', dur:200}, {nota:'A', dur:650}, {nota:'A', dur:400}, {nota:'A', dur:200}, {nota:'A', dur:300}, {nota:'E', dur:300}, {nota:'G', dur:450}, {nota:'G', dur:200}, {nota:'G', dur:650}, {nota:'G', dur:450}, {nota:'G', dur:200}, {nota:'G', dur:600}, {nota:'A', dur:450}, {nota:'A', dur:200}, {nota:'A', dur:700}, {nota:'A', dur:450}, {nota:'A', dur:200}, {nota:'A', dur:350}, {nota:'E', dur:350}, {nota:'G', dur:500}, {nota:'G', dur:200}, {nota:'G', dur:650}, {nota:'G', dur:450}, {nota:'G', dur:200}, {nota:'G', dur:600}, {nota:'F', dur:450}, {nota:'F', dur:200}, {nota:'F', dur:650}, {nota:'F', dur:400}, {nota:'F', dur:200}, {nota:'F', dur:600}, {nota:'G', dur:500}, {nota:'G', dur:200}, {nota:'G', dur:600}, {nota:'G', dur:450}, {nota:'C', dur:200}, {nota:'C', dur:350}, {nota:'C', dur:300}, {nota:'C', dur:800}
 ]
         },
-                    { id: 'billieJean', nome: "Billie Jean (Baixo)", dificuldade:"Média", 
-              partitura: [
-                {nota:'D', dur:750}, {nota:'E', dur:1100}, {nota:'F', dur:750}, {nota:'E', dur:1250}, {nota:'D', dur:700}, {nota:'E', dur:1200}, {nota:'F', dur:700}, {nota:'E', dur:800},
-                  {nota:'A', dur:350}, {nota:'E', dur:350}, {nota:'G', dur:350}, {nota:'A', dur:350}, {nota:'G', dur:350}, {nota:'E', dur:350}, {nota:'D', dur:350}, {nota:'E', dur:350},
-                  {nota:'A', dur:350}, {nota:'E', dur:350}, {nota:'G', dur:350}, {nota:'A', dur:350}, {nota:'G', dur:350}, {nota:'E', dur:350}, {nota:'D', dur:350}, {nota:'E', dur:350},
-                  {nota:'A', dur:350}, {nota:'E', dur:350}, {nota:'G', dur:350}, {nota:'A', dur:350}, {nota:'G', dur:350}, {nota:'E', dur:350}, {nota:'D', dur:350}, {nota:'E', dur:200},
-                  
-              ] 
-            },
             {
             id:'xotedasmeninas', nome: "Xote das Meninas", dificuldade: "Fácil",
             partitura: [
